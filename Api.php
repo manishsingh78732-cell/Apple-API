@@ -208,7 +208,10 @@ document.getElementById("selected_url").innerHTML = urls.join("<br>");
 <input type="checkbox"
 name="artist_check"
 value="<?php echo $artist['artistViewUrl']; ?>"
-onclick="getSelectedURL()">
+onclick="getSelectedURL()
+alert('helo');
+">
+
 
 <img src="<?php echo $artist['artworkUrl100']; ?>">
 
