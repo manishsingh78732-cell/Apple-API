@@ -5,7 +5,6 @@ if (isset($_GET['artist']) && !empty($_GET['artist'])) {
 
     $artistName = trim($_GET['artist']);
     $encodedName = urlencode($artistName);
-    print_r($encodedName); die;
 
     $url = "https://itunes.apple.com/search?term={$encodedName}&entity=song&limit=20";
 
