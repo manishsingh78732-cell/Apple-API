@@ -1,4 +1,5 @@
 <?php
+echo'';
 $searchResults = [];
 
 if (isset($_GET['artist']) && !empty($_GET['artist'])) {
